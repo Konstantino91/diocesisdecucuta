@@ -1,25 +1,27 @@
 body{
 	width: 100%;
+	height: 100%;
 	color: #fff;
 	background-color: #EEE;
 	border-color: #285e8e;
 }
 
 #encabezado{
-	width: 100%;
+  width: 100%;
   position: fixed;
   z-index: 99;
   top: 0px;
   background-color: #3f81e0;
-  height: 24%;
-  min-height: 24%;
+  /*height: 10%;*/
+  min-height: 10%;
   display: flex;
   align-items: center;
 }
 
 .titulop{
-	width:2vw;
+	font-size: 40px;
 }
+
 
 div{
 	float: none;
@@ -28,7 +30,7 @@ div{
 
 
 #atras{
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 99;
 	width: 15%;
 	height: 48px;
@@ -42,10 +44,15 @@ div{
 	margin-left: 25px;
 }
 
+.shieldZone{
+	background: white;
+	padding: 20px 0;
+	border-radius: 15px;
+}
+
 .inicio{
-	height: 85%;
-	width: auto;
-	margin: 10px auto;
+	width: 30%;
+	margin: 0 auto;
 	position: relative;
 	display: block;
 }
@@ -61,11 +68,15 @@ div{
 	width: 93%;
 	margin: auto;
 	position: relative;
-	top: 25%;
+	top: 12%;
 	text-align: center;
 	color: #006CB5;
 }
 
+
+.menu{
+	margin-top: 45px;
+}
 
 
 .boton{
