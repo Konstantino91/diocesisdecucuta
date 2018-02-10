@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.sinododiocesano.appsinodo"
+        versionCode = "18"
+        version     = "1.0.8" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Sínodo Diocesano</name>
+
+    <description>
+        Consigue el material del Sínodo diocesano
+    </description>
+
+    <author href="http://www.diocesisdecucuta.com" email="costacelis2005@hotmail.com">
+       Constantino Celis Peñaranda
+    </author>
+
+
+
+     <icon src="img/ldpi.png" gap:platform="android" gap:density="ldpi" />
+     <icon src="img/mdpi.png" gap:platform="android" gap:density="mdpi" />
+     <icon src="img/hdpi.png" gap:platform="android" gap:density="hdpi" />
+     <icon src="img/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+     <icon src="img/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+    <icon src="img/icon-57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="img/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="img/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="img/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="img/icon-120.png"         gap:platform="ios"        width="120" height="120" />
+    <icon src="img/icon-152.png"         gap:platform="ios"        width="152" height="152" />
+    <icon src="img/icon-76.png"         gap:platform="ios"        width="76" height="76" />
+
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="load-url-timeout" value="50000" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+    <access origin="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="*" />
+    <!--<gap:plugin name="com.sharinglabs.cordova.plugin.cache" version="1.0.0" />-->
+
+
+
+
+
+
+
+</widget>
