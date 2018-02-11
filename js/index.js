@@ -10,14 +10,14 @@ function onDeviceReady() {
 	 	mostrarContenido();
 	});
 
-	$('#materiales').click(function(){
+	$('#vidad').click(function(){
 		home=false;
 		$("#lista").empty();
 		ocultarContenido();
 		mostrarSubMenuMateriales();
 	});
 
-	$('#calendario').click(function(){
+	$('#curso').click(function(){
 		abrirPDF('http://www.emisoravoxdei.com/appsinodo/documentos/calendario.pdf');
 	});
 	$('#programador').click(function(){
