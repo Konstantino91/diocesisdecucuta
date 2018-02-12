@@ -49,11 +49,11 @@ function mostrarSubMenuSinodo(){
 
 
 function mostrarSubMenuMateriales(){
-	$('#lista').append('<div class="boton"><h2 id="m1">Encuentro semanal EPAP</h2></div>');
-	$('#lista').append('<div class="boton"><h2 id="m2">Encuentro Eclesial</h2></div>');
-	$('#lista').append('<div class="boton"><h2 id="m3">Carta a los cristianos</h2></div>');
-	$('#lista').append('<div class="boton"><h2 id="m4">Cenáculo</h2></div>');
-	$('#lista').append('<div class="boton"><h2 id="m5">Otros materiales</h2></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m1">Encuentro semanal EPAP</h2></div></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m2">Encuentro Eclesial</h2></div></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m3">Carta a los cristianos</h2></div></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m4">Cenáculo</h2></div></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m5">Otros materiales</h2></div></div>');
 	accederItemsMenuMateriales();
 }
 

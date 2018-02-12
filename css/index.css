@@ -52,6 +52,7 @@ div{
 	background: white;
 	padding: 20px 0;
 	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .inicio{
@@ -97,10 +98,54 @@ div{
 	width: 100%;
 }
 
-.boton h2{
+.boton h2, .media h2{
 	font-size: 1.3em;
+	color:#2F7DC0;
+	text-align: left;
+	padding: 0 3vw;
 }
 
 .fila{
 	display: flex;
+}
+
+.media{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.icon-doc{
+	width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-size: 4.5em;
+    padding: 4vh 0;
+    background-color: #F7FBFD;
+}
+
+.icon-doc img{
+	width: 35%;
+}
+
+/*.media-text{
+	padding: 0 2vw;
+}*/
+
+.icon-dw{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1vw;
+}
+
+.icon-dw img{
+	width: 25%;
 }
