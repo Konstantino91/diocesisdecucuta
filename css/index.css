@@ -75,7 +75,7 @@ div{
 
 
 .menu{
-	margin-top: 45px;
+	margin-top: 20px;
 }
 
 
@@ -84,6 +84,11 @@ div{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 48%;
     margin: auto auto 5%;
+}
+
+.boton img{
+	display: block;
+	width: 100%;
 }
 
 .fila{
