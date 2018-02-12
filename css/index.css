@@ -18,6 +18,10 @@ body{
   align-items: center;
 }
 
+#icon-menu{
+	margin: 0 5vw;
+}
+
 .titulop{
 	font-size: 1rem;
 }
