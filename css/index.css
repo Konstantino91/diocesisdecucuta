@@ -97,6 +97,10 @@ div{
 	width: 100%;
 }
 
+.boton h2{
+	font-size: 1.3em;
+}
+
 .fila{
 	display: flex;
 }

@@ -2,8 +2,8 @@ document.addEventListener("deviceready",onDeviceReady,false);
 function onDeviceReady() {
 	document.addEventListener("backbutton", onBackKeyDown, false);
 	$('#lista').hide();
- 	$('#atras').hide();
-	$('#atras').click(function(){
+ 	/*$('#atras').hide();*/
+	$('#icon-menu').click(function(){
 		home= true;
 		$("#lista").empty();
 	  	$("#lista").hide();
@@ -121,10 +121,10 @@ function abrirPDF(enlace){
 function ocultarContenido(){
 	$('#lista').show();
 	$('#lista').empty();
-	$('#atras').show();
-	$('atras').css("background","#222 url(../img/home.png) top left no-repeat");
-	$("#materiales").hide();
-	$("#calendario").hide();
+	/*$('#atras').show();*/
+	/*$('atras').css("background","#222 url(../img/home.png) top left no-repeat");*/
+	$("#curso").hide();
+	$("#vidad").hide();
 	$("#programador").hide();
 	$("#sinodo").hide();
 	//$('#contenido').css("top","25%");
@@ -133,9 +133,9 @@ function ocultarContenido(){
 
 function mostrarContenido(){
 	$('#lista').hide();
-	$('#atras').hide();
-	$("#materiales").show();
-	$("#calendario").show();
+	/*$('#atras').hide();*/
+	$("#vidad").show();
+	$("#curso").show();
 	$("#programador").show();
 	$("#sinodo").show();
 	//$('#contenido').css("top","35%");
