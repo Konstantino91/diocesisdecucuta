@@ -12,14 +12,14 @@ body{
   z-index: 99;
   top: 0px;
   background-color: #3f81e0;
-  /*height: 10%;*/
+  height: 10%;
   min-height: 10%;
   display: flex;
   align-items: center;
 }
 
 .titulop{
-	font-size: 2rem;
+	font-size: 1rem;
 }
 
 
