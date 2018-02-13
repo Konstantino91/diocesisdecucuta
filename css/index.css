@@ -115,6 +115,7 @@ div{
     display: flex;
     align-items: center;
     margin: 2vh 0;
+    position: relative;
 }
 
 .icon-doc{
@@ -136,16 +137,9 @@ div{
 	padding: 0 2vw;
 }*/
 
-.icon-dw{
-	display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.download-icon{
+	width: 6vw;
     position: absolute;
-    right: 0;
-    bottom: 0;
-    padding: 1vw;
-}
-
-.icon-dw img{
-	width: 25%;
+    bottom: 1vw;
+    right: 1vw;
 }

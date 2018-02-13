@@ -18,7 +18,7 @@ function onDeviceReady() {
 	});
 
 	$('#curso').click(function(){
-		abrirPDF('http://www.emisoravoxdei.com/appsinodo/documentos/calendario.pdf');
+		
 	});
 	$('#programador').click(function(){
 		abrirPDF('http://www.emisoravoxdei.com/appsinodo/documentos/programador.pdf');
@@ -49,11 +49,12 @@ function mostrarSubMenuSinodo(){
 
 
 function mostrarSubMenuMateriales(){
-	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m1">Encuentro semanal EPAP</h2></div></div>');
-	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m2">Encuentro Eclesial</h2></div></div>');
-	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m3">Carta a los cristianos</h2></div></div>');
-	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m4">Cenáculo</h2></div></div>');
-	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m5">Otros materiales</h2></div></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m1">Encuentro semanal EPAP</h2></div><img class="download-icon" src="img/DW.png"></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m2">Encuentro Eclesial</h2></div><img class="download-icon" src="img/DW.png"></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m3">Carta a los cristianos</h2></div><img class="download-icon" src="img/DW.png"></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m4">Cenáculo</h2></div><img class="download-icon" src="img/DW.png"></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m5">Otros materiales</h2></div><img class="download-icon" src="img/DW.png"></div>');
+	$('#lista').append('<div class="media"><div class="icon-doc"><img src="img/doc.png"></div><div class="media-text"><h2 id="m6">Calendario Diocesano</h2></div><img class="download-icon" src="img/DW.png"></div>');
 	accederItemsMenuMateriales();
 }
 
@@ -79,6 +80,10 @@ function accederItemsMenuMateriales(){
 		$("#lista").empty();
 		ocultarContenido();
 		mostrarlistaMateriales();
+	});
+
+	$('#m6').click(function(){
+		abrirPDF('http://www.emisoravoxdei.com/appsinodo/documentos/calendario.pdf');
 	});
 }
 
